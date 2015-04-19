@@ -1,6 +1,6 @@
 {
   "name": "taco-pack",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Pack a directory into a tarball (ignoring files in .tacoignore or .gitignore).",
   "main": "index.js",
   "dependencies": {
