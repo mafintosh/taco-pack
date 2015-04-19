@@ -8,9 +8,14 @@
     "ignore-file": "^1.1.2",
     "tar-fs": "^1.5.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "standard": "^3.6.1"
+  },
   "bin": {
     "taco-pack": "./bin.js"
+  },
+  "scripts": {
+    "test": "standard"
   },
   "repository": {
     "type": "git",
