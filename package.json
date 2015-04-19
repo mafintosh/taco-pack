@@ -1,0 +1,25 @@
+{
+  "name": "taco-pack",
+  "version": "0.0.0",
+  "description": "Pack a directory into a tarball (ignoring files in .tacoignore or .gitignore).",
+  "main": "index.js",
+  "dependencies": {
+    "duplexify": "^3.3.0",
+    "ignore-file": "^1.1.2",
+    "tar-fs": "^1.5.0"
+  },
+  "devDependencies": {},
+  "bin": {
+    "taco-pack": "./bin.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/taco-pack.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/taco-pack/issues"
+  },
+  "homepage": "https://github.com/mafintosh/taco-pack"
+}
